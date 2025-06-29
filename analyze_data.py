@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load the Excel file
 file_path = "ElectroGadget.xlsx"  # Make sure this file is in the same folder
-df = pd.read_excel("ElectroGadget.xlsx")
+df = pd.read_excel('https://github.com/shagunmishra02/analyze_data/blob/main/ElectroGadget.xlsx')
 
 # Basic exploration
 print("Shape of the dataset:", df.shape)
